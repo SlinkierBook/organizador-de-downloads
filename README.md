@@ -1,26 +1,11 @@
-# Organizador de Downloads
+Downloads Folder Organizer
+Python script that automatically organizes a folder by moving files into categorized subfolders based on file type.
 
-Script Python que organiza a pasta Downloads movendo arquivos para subpastas por tipo (Imagens, Documentos, Vídeos, etc.).
+Key features:
 
-## O que faz
+Automatic file type detection by extension
+Organizes into categories: Images, Documents, Videos, Music, Archives
+Simple, lightweight — no external dependencies required
+Easily configurable for custom folders and categories
 
-- Lê todos os arquivos da pasta escolhida
-- Identifica a extensão de cada arquivo
-- Move para uma subpasta baseada na categoria:
-
-| Categoria | Extensões |
-|---|---|
-| Imagens | .jpg, .jpeg, .png, .gif, .bmp |
-| Documentos | .pdf, .docx, .txt, .xlsx |
-| Vídeos | .mp4, .avi, .mkv, .mov |
-| Músicas | .mp3, .wav, .flac |
-| Compactados | .zip, .rar, .7z |
-
-## Como usar
-
-1. Instale o Python (versão 3.8 ou superior)
-2. Baixe o arquivo `organizer.py`
-3. Abra o arquivo e mude o caminho no final:
-
-```python
-organizar("C:/Users/SeuUsuario/Downloads")
+Use case: A practical example of task automation that saves time on manual file organization — the kind of repetitive process automation clients often need for their own workflows (e.g. organizing invoices, reports, or media files).
